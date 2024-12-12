@@ -1,0 +1,20 @@
+{
+    "name": "poe2-price-checker",
+    "version": "1.0.0",
+    "description": "Price checker for Path of Exile 2 items",
+    "main": "dist/main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "tsc"
+    },
+    "devDependencies": {
+      "electron": "^25.3.0",
+      "@electron/remote": "^2.0.0",
+      "typescript": "^5.2.0",
+      "@types/node": "^20.5.1"
+    },
+    "dependencies": {
+      "axios": "^1.6.0"
+    }
+  }
+  
